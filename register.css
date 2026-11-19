@@ -1,0 +1,21 @@
+body{
+    /* background-color: blue; */
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    border-color: black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

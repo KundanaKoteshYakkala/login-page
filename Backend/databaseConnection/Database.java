@@ -8,7 +8,7 @@ public class Database {
 	static Connection con;
 	public static void connect(){
 		try {
-			String url = "jdbc:mysql://13.206.218.12:3306/users_db";
+			String url = "jdbc:mysql://127.0.0.1:3306/users_db";
 			String user = "kundan";
 			String password = "kundan1234";
 			con = DriverManager.getConnection(url, user, password);

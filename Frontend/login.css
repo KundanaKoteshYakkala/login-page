@@ -1,0 +1,26 @@
+body{
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background-color: aqua;
+    height: 300px;
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    height: 300px;
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

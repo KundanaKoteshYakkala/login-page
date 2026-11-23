@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/login.css">
+</head>
+<body>
+    <form action="/verifyLoginCreds" method="post">
+        <fieldset>
+            <h1>Enter Login Details</h1> <br>
+            <table cellpadding="10px">
+                <tr>
+                    <td><label for="userID">Username</label></td>
+                    <td><input type="text" id="userID" name="userID"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="text" id="password" name="password"></td>
+                </tr>
+            </table>
+            <br>
+            <button type="submit">Submit</button>
+            <br><br>
+        </fieldset>
+    </form>
+</body>
+</html>
